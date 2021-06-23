@@ -2,11 +2,18 @@
     background-color: rgb(44, 62, 80);
 }
 
+.bg-blue-2 {
+    background-color: rgb(58, 84, 109);
+}
+
 .bg-green {
     background-color: rgb(26, 188, 156);
 }
 
-.main
+.main-header {
+    min-height: 80px;
+    color: white;
+}
 
 .jumbotron {
     min-height: 60vh;
@@ -22,5 +29,21 @@
 
 .box {
     min-height: 200px;
-    flex-grow: 1;
+}
+
+.layout-about {
+    min-height: 500px;
+}
+
+#about .container {
+    height: 90%;
+    max-width: 50%;
+}
+
+#contact-me {
+    min-height: 50vh;
+}
+
+.bg-darkred {
+    background-color: darkred;
 }
