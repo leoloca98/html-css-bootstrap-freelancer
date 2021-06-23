@@ -58,13 +58,11 @@ img {
 
 /* *ABOUT* */
 
-#about .container {
-    height: 90%;
-    max-width: 50%;
-}
-
-#about .layout-about {
-    min-height: 500px;
+#about .line {
+    height: 4px;
+    width: 70px;
+    border-radius: 2px;
+    background-color: white;
 }
 
 /* *CONTACT* */
