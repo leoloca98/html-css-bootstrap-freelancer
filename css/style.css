@@ -1,0 +1,26 @@
+.bg-blue {
+    background-color: rgb(44, 62, 80);
+}
+
+.bg-green {
+    background-color: rgb(26, 188, 156);
+}
+
+.main
+
+.jumbotron {
+    min-height: 60vh;
+}
+
+.bg-goldenrod {
+    background-color: goldenrod;
+}
+
+.border-box {
+    border: 1px dashed black;
+}
+
+.box {
+    min-height: 200px;
+    flex-grow: 1;
+}
