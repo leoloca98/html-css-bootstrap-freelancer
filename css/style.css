@@ -1,8 +1,10 @@
+/* *BACKGROUND* */
+
 .bg-blue {
     background-color: rgb(44, 62, 80);
 }
 
-.bg-blue-2 {
+.bg-darkerblue {
     background-color: rgb(58, 84, 109);
 }
 
@@ -10,53 +12,73 @@
     background-color: rgb(26, 188, 156);
 }
 
-.main-header {
-    min-height: 80px;
-    color: white;
-}
-
-.jumbotron {
-    min-height: 60vh;
+.bg-darkred {
+    background-color: darkred;
 }
 
 .bg-goldenrod {
     background-color: goldenrod;
 }
 
+/* *BORDER* */
+
+[class="col"] {
+    border: 2px solid orange;
+}
+
 .border-box {
     border: 1px dashed black;
 }
 
+/* *UTILITIES* */
+
 .box {
     min-height: 200px;
-}
-
-.layout-about {
-    min-height: 500px;
-}
-
-#about .container {
-    height: 90%;
-    max-width: 50%;
-}
-
-#contact-me {
-    min-height: 50vh;
-}
-
-.bg-darkred {
-    background-color: darkred;
-}
-
-#info {
-    color: white;
 }
 
 .height-row {
     min-height: 90px;
 }
 
-footer {
+/* *HEADER* */
+
+#header {
     min-height: 80px;
-    color: white;
+}
+
+/* *JUMBOTRON* */
+
+#jumbotron {
+    min-height: 60vh;
+}
+
+/* *ABOUT* */
+
+#about .container {
+    height: 90%;
+    max-width: 50%;
+}
+
+#about .layout-about {
+    min-height: 500px;
+}
+
+/* *CONTACT-ME* */
+
+#contact-me {
+    min-height: 50vh;
+}
+
+#contact-me .form-control {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+/* *INFO* */
+
+/* *FOOTER* */
+
+#footer-bot {
+    min-height: 80px;
 }
