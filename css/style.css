@@ -1,3 +1,7 @@
+img {
+    max-width: 100%;
+}
+
 /* *BACKGROUND* */
 
 .bg-darkerblue {
@@ -20,26 +24,6 @@
     background-color: goldenrod;
 }
 
-/* *BORDER* */
-
-/* [class="col"] {
-    border: 2px solid orange;
-} */
-
-/* .border-box {
-    border: 1px dashed black;
-} */
-
-/* *UTILITIES* */
-
-.box {
-    min-height: 200px;
-}
-
-.height-row {
-    min-height: 90px;
-}
-
 /* *HEADER* */
 
 #header .navbar-toggler {
@@ -50,6 +34,26 @@
 
 #jumbotron {
     min-height: 60vh;
+}
+
+#jumbotron .line {
+    height: 4px;
+    width: 70px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#avatar {
+    max-height: 300px;
+}
+
+/* *PORTFOLIO* */
+
+#portfolio .line {
+    height: 4px;
+    width: 70px;
+    border-radius: 2px;
+    background-color: black;
 }
 
 /* *ABOUT* */
@@ -73,6 +77,13 @@
     border-radius: 0;
     border: 0;
     border-bottom: 1px solid black;
+}
+
+#contact .line {
+    height: 4px;
+    width: 70px;
+    border-radius: 2px;
+    background-color: black;
 }
 
 /* *INFO* */
