@@ -47,3 +47,16 @@
 .bg-darkred {
     background-color: darkred;
 }
+
+#info {
+    color: white;
+}
+
+.height-row {
+    min-height: 90px;
+}
+
+footer {
+    min-height: 80px;
+    color: white;
+}
