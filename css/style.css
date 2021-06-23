@@ -1,10 +1,10 @@
 /* *BACKGROUND* */
 
-.bg-blue {
+.bg-darkerblue {
     background-color: rgb(44, 62, 80);
 }
 
-.bg-darkerblue {
+.bg-blue {
     background-color: rgb(58, 84, 109);
 }
 
@@ -22,13 +22,13 @@
 
 /* *BORDER* */
 
-[class="col"] {
+/* [class="col"] {
     border: 2px solid orange;
-}
+} */
 
-.border-box {
+/* .border-box {
     border: 1px dashed black;
-}
+} */
 
 /* *UTILITIES* */
 
@@ -44,6 +44,11 @@
 
 #header {
     min-height: 80px;
+}
+
+#header .navbar-toggler {
+    color: white;
+    border: 1px solid white;
 }
 
 /* *JUMBOTRON* */
@@ -63,13 +68,13 @@
     min-height: 500px;
 }
 
-/* *CONTACT-ME* */
+/* *CONTACT* */
 
-#contact-me {
+#contact {
     min-height: 50vh;
 }
 
-#contact-me .form-control {
+#contact .form-control {
     border-radius: 0;
     border: 0;
     border-bottom: 1px solid black;

@@ -13,8 +13,31 @@
 
 <body>
     <!-- Header -->
-    <section id="header" class="main-header container-fluid bg-blue border-box text-center text-white">
-        <header>HEADERR</header>
+    <section id="header" class="main-header container-fluid bg-darkerblue border-box">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h3 class="text-white">START BOOTSTRAP</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </section>
 
     <!-- Jumbotron -->
@@ -51,11 +74,13 @@
                     optio
                     doloribus, obcaecati magni voluptas quidem aliquam similique itaque at excepturi accusantium
                     officiis possimus? Quam sed sunt iste adipisci odit.</div>
-                <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum
                     voluptas
                     neque
                     nulla
-                    blanditiis consequuntur voluptatem ullam hic fugit a recusandae? Aliquid laboriosam mollitia eaque
+                    blanditiis consequuntur voluptatem ullam hic fugit a recusandae? Aliquid laboriosam mollitia
+                    eaque
                     quibusdam, odio ullam. Animi, suscipit nisi.</div>
             </div>
             <div class="row">
@@ -65,7 +90,7 @@
     </section>
 
     <!-- Contact me -->
-    <section id="contact-me">
+    <section id="contact">
         <div class="container text-left">
             <div class="row flex-column">
                 <div class="col">
@@ -108,21 +133,19 @@
 
 
     <!-- Footer -->
-    <footer class="container-fluid bg-blue text-center text-white">
-        <section id="info">
-            <div class="container-fluid flex-row flex-nowrap bg-darkerblue">
-                <div class="height-row row">
-                    <div class="offset-1 col-10">
-                        <div class="height-row row flex-column flex-md-row text-center">
-                            <div class="offset-1 col-12 offset-md-0 col-md-4">LOCATION</div>
-                            <div class="offset-1 col-12 offset-md-0 col-md-4">AROUND THE WEB</div>
-                            <div class="offset-1 col-12 offset-md-0 col-md-4">ABOUT FREELANCER</div>
-                        </div>
+    <footer class="text-white text-center">
+        <section id="info" class="container-fluid flex-grow flex-nowrap bg-blue">
+            <div class="height-row row">
+                <div class="offset-1 col-10">
+                    <div class="height-row row flex-column flex-md-row text-center">
+                        <div class="offset-1 col-12 offset-md-0 col-md-4">LOCATION</div>
+                        <div class="offset-1 col-12 offset-md-0 col-md-4">AROUND THE WEB</div>
+                        <div class="offset-1 col-12 offset-md-0 col-md-4">ABOUT FREELANCER</div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="footer-bot">
+        <section id="footer-bot" class="container-fluid bg-darkerblue">
             <div>Copyright r Boolean 2021 - Class 38 - Leonardo Locatelli</div>
         </section>
     </footer>
